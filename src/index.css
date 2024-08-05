@@ -10,7 +10,7 @@ body{
   padding: 0;
 }
 :root {
-  --green-color: rgb(26, 188, 156);
+  --green-color: red;
   --dark-color: rgb(44, 62, 80);
   --dark2-color: rgb(26, 37, 47);
 

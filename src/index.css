@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --green-color: rgb(26, 188, 156);
+  --dark-color: rgb(44, 62, 80);
+  --dark2-color: rgb(26, 37, 47);
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+ 
+}
+
+.container {
+  margin-inline: auto;
+}
+
+.main-box{
+  width: 100%;
+  height: 37rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
